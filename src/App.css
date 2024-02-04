@@ -21,7 +21,7 @@
   margin-right: 100px;
   justify-content: space-between;
   font-size: large;
-  text-decoration: none;
+  
 
 }
 .body {
@@ -38,10 +38,11 @@
 }
 .img {
   box-shadow: 1px 1px 5px 5px #714288;
-  height: 250px;
-  width: 260px;
+  height: 245px;
+  width: 248px;
   border-radius: 120px;
   margin-left: 10px;
+  padding:5px;
 }
 .projects {
   margin-left: 650px;
@@ -85,8 +86,8 @@
   flex-direction: column;
   background-color:#caabd8;
 }
-h3 {
-  text-decoration: none;
+.header h3 {
+  color: black;
 }
 .about {
   text-align: center;
@@ -95,4 +96,30 @@ h3 {
   height:400px;
   margin-left: 500px;
   margin-top: 120px;
+  box-shadow:#714288 0px 30px 60px -12px, #714288 0px 18px 36px -18px;
+  background-color: #caabd8;
+}
+.about h1 {
+  background-color: #caabd8;
+}
+.about h3 {
+  background-color: #caabd8;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
+}
+.contact {
+  text-align: center;
+  border-style: groove;
+  width: 400px;
+  height:400px;
+  margin-left: 500px;
+  margin-top: 120px;
+  box-shadow:#714288 0px 30px 60px -12px, #714288 0px 18px 36px -18px;
+  background-color: #caabd8;
+}
+.contact h3 {
+  background-color: #caabd8;
 }

@@ -9,29 +9,17 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
 
-const AppLayout = () => {
-  return (
-    <div>
-      <Header/>
-      <Routes>
-        <Route path="/" element={<Body />} />
-        <Route path="/About" element = {<About />}/>
-        <Route path="/Contact" element = {<Contact/>}/>
-      </Routes>
-      <Projects/>
-    </div>
-  );
-};
-
 function App() {
   return (
     <BrowserRouter>
+      <Header/>
       <Routes>
-        <Route path="/" element={<AppLayout />}/>
+        <Route path="/" element={<Body/>}/>
         <Route path="/About" element = {<About />}/>
         <Route path="/Contact" element = {<Contact/>}/>
       </Routes>
     </BrowserRouter>
+
   );
 }
 
