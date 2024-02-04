@@ -1,16 +1,37 @@
-import {Link} from "react-router-dom";
+
 import './App.css';
-import Header from "./components/Header";
-import Body from "./components/Body";
+
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Body from './components/Body';
+import Projects from './components/Projects';
+import About from './components/About';
+import Contact from './components/Contact';
+
+const AppLayout = () => {
+  return (
+    <div>
+      <Header/>
+      <Routes>
+        <Route path="/" element={<Body />} />
+        <Route path="/About" element = {<About />}/>
+        <Route path="/Contact" element = {<Contact/>}/>
+      </Routes>
+      <Projects/>
+    </div>
+  );
+};
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      {/* <a className="github" href= "https://github.com/" target="_blank" >Github</a>
-      <a className="linkedin"href="https://www.linkedin.com/in/kajalsingh1813/" target="_blank">LinkedIn</a> */}
-      <Body/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<AppLayout />}/>
+        <Route path="/About" element = {<About />}/>
+        <Route path="/Contact" element = {<Contact/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

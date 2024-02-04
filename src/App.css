@@ -1,31 +1,98 @@
+
 * {
-  background-color: #dc8eb0;
+  /* background-color: #f6a5c0; */
+  /* background-color: #6495ED; */
+  /* background-color: #a393eb; */
+  /* background-color: #9896f1; */
+  /* background-color: #a5bdfd;
+   */
+   background-color: #9873b9;
 }
 
 .github {
-  margin:5px;
+  margin: 5px;
 }
-.linkedin{
-  margin:5px;
+.linkedin {
+  margin: 5px;
 }
 .header {
-  display:flex;
-  margin-left: 990px;
-  margin-right:200px;
+  display: flex;
+  margin-left: 1000px;
+  margin-right: 100px;
   justify-content: space-between;
+  font-size: large;
+  text-decoration: none;
 
 }
 .body {
-  margin-top:150px;
-  margin-left:450px;
-  display:flex;
+  margin-top: 150px;
+  display: flex;
+}
+.b-img {
+  margin: 10px;
+  margin-left: 200px;
+}
+.b-text {
+  margin: 50px;
+  font-size: large;
 }
 .img {
-  box-shadow:1px 1px 10px 10px rgb(128, 40, 87);
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(183, 13, 174, 0.337) 0px 18px 36px -18px; */
-  height:200px;
-  width:210px;
-  border-radius: 100px;
-  margin-left: 90px;
+  box-shadow: 1px 1px 5px 5px #714288;
+  height: 250px;
+  width: 260px;
+  border-radius: 120px;
+  margin-left: 10px;
+}
+.projects {
+  margin-left: 650px;
+}
+.p-img {
+  width: 460px;
+  height: 260px;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.p {
+  margin-top: 310px;
+  margin-bottom: 600px;
 }
 
+.p-one {
+  box-shadow:#714288 0px 30px 60px -12px, #714288 0px 18px 36px -18px;
+  background-color: #caabd8;
+  margin-left: 150px;
+  margin-right: 200px;
+  display: flex;
+  border-style:ridge;
+  margin-bottom: 20px;
+}
+.p-text {
+  /* background-color: #fbd4e1; */
+  background-color: #caabd8;
+  margin-left: 40px;
+  margin-top: 70px;
+  margin-right: 30px;
+  font-size: large;
+}
+.p-link {
+  background-color: #caabd8;
+  margin: 40px;
+  text-decoration: none;
+}
+.p-one-i {
+  display: flex;
+  flex-direction: column;
+  background-color:#caabd8;
+}
+h3 {
+  text-decoration: none;
+}
+.about {
+  text-align: center;
+  border-style: groove;
+  width: 400px;
+  height:400px;
+  margin-left: 500px;
+  margin-top: 120px;
+}
