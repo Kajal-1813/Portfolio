@@ -123,3 +123,15 @@ a:-webkit-any-link {
 .contact h3 {
   background-color: #caabd8;
 }
+.logo {
+  width:50px;
+  height:40px;
+  margin: 20px;
+  background-color: #caabd8;
+}
+.logos {
+  background-color: #caabd8;
+}
+.link {
+  background-color: #caabd8;
+}
